@@ -1,0 +1,52 @@
+@font-face{
+    font-family: BebasBold;
+    src: url("../fonts/BebasNeueBold.ttf");
+}
+
+@font-face{
+    font-family: BebasBook;
+    src: url("../fonts/BebasNeueBook.ttf");
+}
+
+@font-face{
+    font-family: BebasLight;
+    src: url("../fonts/BebasNeueLight.ttf");
+}
+
+@font-face{
+    font-family: HelvicaNeueBlackCondensed;
+    src: url("../fonts/HelveticaNeueBlackCondensed.ttf");
+}
+
+@font-face{
+    font-family: HelvicaBoldBlackCondensed;
+    src: url("../fonts/HelveticaNeueBoldCondensed.ttf");
+}
+
+@font-face{
+    font-family: HelvicaLightBlackCondensed;
+    src: url("../fonts/HelveticaNeueBlackCondensed.ttf");
+}
+
+@font-face{
+    font-family:HelveticaNeueCyr-Light ;
+    src: url("../fonts/HelveticaNeueCyr-Light.ttf");
+}
+
+:root{
+    --color-orange: #dd7615;
+    --color-light:#3d3d3d;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	margin: 0;
+	font-weight: 400;
+}
+
+
+
