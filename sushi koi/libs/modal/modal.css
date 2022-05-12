@@ -35,11 +35,13 @@
 
 .modal__container {
 	position: relative;
+	width: 700px;
 	margin: 50px auto;
 	display: inline-block;
 	vertical-align: middle;
 	background-color: #fff;
 	border-radius: 10px;
+	padding: 20px;
 	cursor: default;
 	text-align: left;
 	display: none;

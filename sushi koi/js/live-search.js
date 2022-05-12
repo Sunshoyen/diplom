@@ -1,4 +1,4 @@
-document.querySelector('#search').oninput = function () {
+/*document.querySelector('#search').oninput = function () {
     let val = this.value.trim();
     let searchItem = document.querySelectorAll('.product-grid li')
 
@@ -17,4 +17,12 @@ document.querySelector('#search').oninput = function () {
         });
 
     }
-}
+}*/
+
+window.addEventListener('scroll', e =>{
+    let navbar = document.getElementById('navbar').classList
+    let activ__class = "navbar__scrolled"
+
+    if(pageYOffset > 200) navbar.add(activ__class)
+    else navbar.remove(activ__class)
+})

@@ -7,110 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/3d0e27e432.js"></script>
-    <title>Document</title>
+    <title>sushi koi</title>
     <link rel="stylesheet" href="libs/modal/modal.css">
 </head>
 
 <body>
     <header class="header">
         <div class="container__wrap">
-            <nav class="header__nav nav">
-                <div class="search-box">
+            <nav class="header__top">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
 
-                    <input type="text"id="search"  placeholder="Что искать...">
-    
-                    <div class="search-btn">
+                <div class="order__info">
+                    <p>Часы работы: пн-пт с 10:00 до 21:00 <br>
+                    сб-вс с 10:00 до 23:00</p>    
+                </div>
+
+                <div class="socials-seties">
+
+                </div>
+
+                <div class="telephone__number"><a href="+79245310557">+7(924) 531-05-57</a></div>
+
+               <!--\ <div class="search-box">
+
+                    <input type="text" id="search" placeholder="Что искать...">
+
+                    <<div class="search-btn">
                         <i class="fas fa-search"></i>
                     </div>
-    
+
                     <div class="cancel-btn">
                         <i class="fas fa-times"></i>
                     </div>
-                </div>
+                </div>-->
+            </nav>
 
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Роллы</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Пицца</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Напитки</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Десерты</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Соусы</a></li>
-                </ul>
-                <div class="header__cart cart" tabindex="0">
-					<div class="cart__text">
-						Корзина
-						<span class="cart__quantity">0</span>
-					</div>
-					<div class="cart-content">
-						<ul class="cart-content__list" data-simplebar>
-						</ul>
-						<div class="cart-content__bottom">
-							<div class="cart-content__fullprice">
-								<span>Итого:</span>
-								<span class="fullprice"></span>
-							</div>
-                                <button class="cart-content__btn btn" data-graph-path="modal" data-graph-animation="fadeInUp" data-graph-speed="400">Перейти в корзину</button>
-						</div>
-					</div>
-				</div>
+            <nav id="navbar" class="navbar">
+                <div class="header__bottom">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Роллы</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Пицца</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Напитки</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Десерты</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Соусы</a></li>
+                    </ul>
+
+                    <div class="header__cart cart" tabindex="0">
+                        <div class="cart__text">
+                            Корзина
+                            <span class="cart__quantity">0</span>
+                        </div>
+                        <div class="cart-content">
+                            <ul class="cart-content__list" data-simplebar>
+                            </ul>
+                            <div class="cart-content__bottom">
+                                <div class="cart-content__fullprice">
+                                    <span>Итого:</span>
+                                    <span class="fullprice"></span>
+                                </div>
+                                <button class="cart-content__btn btn" data-graph-path="modal"
+                                    data-graph-animation="fadeInUp" data-graph-speed="400">Перейти в корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>
-
-        <!--
-        <div class="our-form">
-            <div class="logo">
-                <img src="img/logo.png" alt="">
-            </div>
-            <div class="search-box">
-
-                <input type="text" placeholder="Введите для поиска">
-
-                <div class="search-btn">
-                    <i class="fas fa-search"></i>
-                </div>
-
-                <div class="cancel-btn">
-                    <i class="fas fa-times"></i>
-                </div>
-            </div>
-        </div>-->
-
-
-
-        <!--
-        <nav class="nav__menu">
-            <ul>
-                <li><a href="#">Роллы</a>
-                    <ul>
-                        <li><a href="#">Все роллы</a></li>
-                        <li><a href="#">Сеты</a></li>
-                        <li><a href="#">Маки</a></li>
-                        <li><a href="#">Роллы</a>
-                            <ul>
-                                <li><a href="#">Запеченные</a></li>
-                                <li><a href="#">Жаренные</a></li>
-                                <li><a href="#">Суши</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="#">Полуфабрикаты</a></li>
-                <li><a href="#">Бизнес-ланчи</a>
-                    <ul>
-                        <li><a href="#">Все блюда</a></li>
-                        <li><a href="#">Салаты</a></li>
-                        <li><a href="#">Горячие блюда</a></li>
-                        <li><a href="#">Гарниры</a></li>
-                        <li><a href="#">Гриль</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Пицца</a></li>
-                <li><a href="#">Напитки</a></li>
-                <li><a href="#">Десерты</a></li>
-                <li><a href="#">Соусы</a></li>
-            </ul>
-        </nav>
-    -->
     </header>
+
+    <div class="wrapper">
+        <div class="infinity-slider-wrap">
+            <div class="infinity-slider">
+                <img src="images/beach_1.jpg" alt="">
+                <img src="images/beach_2.jpg" alt="">
+                <img src="images/beach_3.jpg" alt="">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+        </div>
+    </div>
+
     <main class="content">
         <div class="filters">
             <button class="button button_type_all" data-filter="all"> Все</button>
@@ -140,11 +118,22 @@
                             <h3 class="product__title">
                                 <a href="#"> Калифорния </a>
                             </h3>
-
                             <div class="product__info-class">
                                 <div class="product__info">
                                     <span class="product__available"> 250 гр</span>
                                 </div>
+
+                                <div class="task">
+                                    <div class="tooltip-1">
+                                        <button class="info-btn" aria-labelledby="tooltip-1">
+                                            <img src="img/info.svg"></img>
+                                        </button>
+                                        <div class="tooltip-text" role="tooltip" id="tooltip-1">
+                                            творожный сыр, рыба, рис, нори
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="product__price product-price">
                                     <span class="product-price__current">500 ₽</span>
                                 </div>
@@ -349,52 +338,73 @@
             </div>
         </div>
     </main>
+
+    <!--сектия с анимацей-->
+    <section class="home">
+
+        <div class="content">
+            <h3>Lorem ipsum dolor</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet
+                laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem
+                quisquam eos!</p>
+            <a href="#" class="btn__order">tut infa</a>
+        </div>
+
+        <div class="image">
+            <img src="images/bg-pict.png" alt="">
+        </div>
+
+    </section>
+    <!--сектия с анимацей-->
+
     <div class="modal">
-		<div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
-			<div class="modal-content order-modal__content">
-				<div class="order-modal__top">
-					<h2 class="order-modal__title">Оформление заказа</h2>
-				</div>
-				<div class="order-modal__info">
-					<div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>3 шт</span></div>
-					<div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>568 789 ₽</span></div>
-					<div class="order-modal__products order-modal__info-item">
-						<button class="order-modal__btn">Состав заказа</button>
-						<ul class="order-modal__list">
-							<!-- <li class="order-modal__item">
+        <div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
+            <div class="modal-content order-modal__content">
+                <div class="order-modal__top">
+                    <h2 class="order-modal__title">Оформление заказа</h2>
+                </div>
+                <div class="order-modal__info">
+                    <div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>1 шт</span></div>
+                    <div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>500 ₽</span></div>
+                    <div class="order-modal__products order-modal__info-item">
+                        <button class="order-modal__btn">Состав заказа</button>
+                        <ul class="order-modal__list">
+                            <!--<li class="order-modal__item">
 								<article class="order-modal__product order-product">
-									<img src="img/macbook.jpg" alt="" class="order-product__img">
+									<img src="img/sushi.jpg" alt="" class="order-product__img">
 									<div class="order-product__text">
-										<h3 class="order-product__title">Ноутбук Apple MacBook Pro 16 TB i7 2.6/16/512 SSD SG MVVJ2RU/A</h3>
-										<span class="order-product__price">190 789 ₽ </span>
+										<h3 class="order-product__title">Калифорния</h3>
+										<span class="order-product__price"> 500 ₽ </span>
 									</div>
 									<button class="order-product__delete">Удалить</button>
 								</article>
 							</li> -->
-						</ul>
-					</div>
-				</div>
-				<form action="#" class="order-modal__form order">
-					<input type="hidden" name="theme" value="Обратный звонок">
-					<input type="hidden" name="admin_email[]" value="maxgraph23@gmail.com">
-					<input type="hidden" name="form_subject" value="Заявка с сайта Сайт">
-					<label class="order__label">
-						<span class="order__text">Ваше имя</span>
-						<input type="text" name="Имя" class="order__input">
-					</label>
-					<label class="order__label">
-						<span class="order__text">Номер телефона</span>
-						<input type="tel" name="Телефон" class="order__input" placeholder="+7 (___)___-__-__">
-					</label>
-					<label class="order__label">
-						<span class="order__text">Ваше имя</span>
-						<input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
-					</label>
-					<button class="order__btn btn">Оформить заказ</button>
-				</form>
-			</div>
-		</div>
-	</div>
+                        </ul>
+                    </div>
+                </div>
+                <form action="#" class="order-modal__form order">
+                    <input type="hidden" name="theme" value="Обратный звонок">
+                    <input type="hidden" name="admin_email[]" value="maxgraph23@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта Сайт">
+                    <label class="order__label">
+                        <span class="order__text">Ваше имя</span>
+                        <input type="text" name="Имя" class="order__input">
+                    </label>
+                    <label class="order__label">
+                        <span class="order__text">Номер телефона</span>
+                        <input type="tel" name="Телефон" class="order__input" placeholder="+7 (___)___-__-__">
+                    </label>
+                    <label class="order__label">
+                        <span class="order__text">Ваше почта</span>
+                        <input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
+                    </label>
+                    <button class="order__btn">Оформить заказ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/info.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/simplebar.js"></script>
     <script src="libs/modal/modal.js"></script>
     <script src="js/live-search.js"></script>

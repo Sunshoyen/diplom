@@ -5,7 +5,7 @@
 
 @font-face{
     font-family: BebasBook;
-    src: url("../fonts/BebasNeueBook.ttf");
+    src: url("../fonts/ofont.ru_Lato\ Light.ttf");
 }
 
 @font-face{
@@ -30,8 +30,49 @@
 
 @font-face{
     font-family:HelveticaNeueCyr-Light ;
-    src: url("../fonts/HelveticaNeueCyr-Light.ttf");
+    src: url("../fonts/ofont.ru_P151.ttf");
 }
+
+@font-face{
+    font-family:ft19 ;
+    src: url("../fonts/ofont.ru_ft19.ttf");
+}
+
+@font-face{
+    font-family:Lato ;
+    src: url("../fonts/ofont.ru_Lato\ Light.ttf");
+}
+
+@font-face{
+    font-family: P151;
+    src: url("../fonts/ofont.ru_P151.ttf");
+}
+
+@font-face{
+    font-family: Realize;
+    src: url("../fonts/ofont.ru_Realize\ My\ Passion.ttf");
+}
+
+@font-face{
+    font-family: Stolzl;
+    src: url("../fonts/ofont.ru_Stolzl.ttf");
+}
+
+@font-face{
+    font-family: Optimus ;
+    src: url("../fonts/Optimus.ttf");
+}
+
+@font-face{
+    font-family: Whitehall ;
+    src: url("../fonts/Whitehall.ttf");
+}
+
+@font-face{
+    font-family: Roboto ;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
 
 :root{
     --color-orange: #dd7615;

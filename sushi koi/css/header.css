@@ -49,11 +49,26 @@ li{
     box-shadow: 0px 4px 4px rgba(135, 135, 135, 0.25) ;
 }
 
-.nav{
+
+.header__top{
     display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 65px;
+}
+
+.order__info{
+    font-size: 17px;
+    line-height: 25px;
+    font-family: HelveticaNeueCyr-Light;
+}
+
+.telephone__number{
+    font-family: Roboto ;
+}
+
+.telephone__number:hover{
+    color: #ffa14a;
 }
 
 .nav__item:not(first-child){
@@ -64,15 +79,60 @@ li{
     margin-right: 60px;
 }
 
-.nav__list{
+.navbar{
+    position: absolute;
+    left: 0; top: 20;
+    width: 100%;
+    z-index: 10;
+    background-color: #1c1a1a;
+    color: #dd7615;
+    height: 60px;
     display: flex;
     align-items: center;
+    transition: all .3s ease-in-out;
 }
 
-.nav__list {
+.navbar__scrolled{
+    position: fixed;
+    background-color: #000   ;
+    top: 0;
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
+
+.header__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav__list{
+    font-size: 17px;
     position: absolute;
-    left: 34%; 
-    top: 50%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    transition: all .1s ease-out;
+}
+
+.nav__list a:hover{
+    color: #ffa14a;
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        top: -50px;
+    }
+    to{
+        opacity: 1;
+        top: 0;
+    }
 }
 
 .search input{
@@ -82,7 +142,6 @@ li{
     background: #fff;
     font-size: 14px;
     border-radius: 50px;
-    padding: 10px 60px 10px 20px;   
     outline: none;
 }
 
@@ -90,10 +149,11 @@ li{
     margin-left: 30px;
 }
 
-.cart{
+.cart{    
+    display: flex;
     position: relative;
-    padding: 40px 20px;
-    transition: background-color 0.2s;
+    left: 25%;
+    padding: 0 20px;
 }
 
 .cart.activ:hover{
@@ -102,7 +162,7 @@ li{
 }
 
 .cart__text{
-    font-size: 20px;
+    font-size: 22px;
     line-height: 19px;
     cursor: pointer;
 }
@@ -143,10 +203,6 @@ li{
     opacity: 1;
     visibility: visible;
     transition: opacity 0.3s, visibility 0.3s;
-}
-
-.content{
-    padding-top: 30px;
 }
 
 .cart-content__list{
@@ -442,5 +498,77 @@ li{
     display: none;
 
 }*/
+
+/*.header__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    color: #dd7615;
+}*/
+
+
+.infinity-slider-wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.infinity-slider{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.infinity-slider img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 1s;
+    object-fit: cover;
+}
+
+.infinity-slider .opacity0{
+    opacity: 0;
+}
+
+/* Кнопки вперед и назад */
+.infinity-slider .previous, .infinity-slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.infinity-slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.infinity-slider .previous:hover,
+.infinity-slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;   
+}
+
 
 
